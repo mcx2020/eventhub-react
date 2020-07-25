@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-
-
 
 let fnLists = {}
 const eventHub = {
@@ -17,12 +15,17 @@ const eventHub = {
     fnList.forEach((fn) => fn(data))
   }
 }
-let restTime = 100;
 
-const handleData = {
+const store = {
+  restTime: 100,
+  handleData(time) {
+    if (this.restTime <= 0) { alert('时间用完啦'); return }
+    if (time > this.restTime) { alert('时间不够用哦'); return }
+    this.restTime -= time
+  },
   init() {
     eventHub.on('play', (time) => {
-      restTime -= time
+      this.handleData(time)
       ReactDOM.render(
         <App />,
         document.getElementById('root')
@@ -31,10 +34,10 @@ const handleData = {
   }
 }
 
-handleData.init()
+store.init()
 
 function App() {
-  const state = { restTime: restTime }
+  const state = { restTime: store.restTime }
   return (
     <div className='app'>
       <p className='describe'>
