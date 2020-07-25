@@ -45,6 +45,9 @@ function App() {
         <br />
         <br />
         我们现在用 eventHub 来实现一个孩子去游玩后，每个孩子都能得到剩余的游玩时间。
+        <br />
+        <br />
+        源码链接：<a href='https://github.com/mcx2020/eventhub-react/blob/master/src/index.js'>https://github.com/mcx2020/eventhub-react/blob/master/src/index.js</a>
       </p>
       <main>
         <Father1 data={state.restTime} />

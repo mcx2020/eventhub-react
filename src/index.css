@@ -11,7 +11,7 @@ main{
 
 .father1,.father2{
   border:5px solid red;
-  padding:100px 100px;
+  padding:50px 100px;
 }
 
 .son1,.son2,.son3,.son4{
