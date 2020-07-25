@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/eventhub-react/static/css/main.8a272cf2.chunk.css",
+    "main.js": "/eventhub-react/static/js/main.2e6cfbfa.chunk.js",
+    "main.js.map": "/eventhub-react/static/js/main.2e6cfbfa.chunk.js.map",
+    "runtime-main.js": "/eventhub-react/static/js/runtime-main.106dbc50.js",
+    "runtime-main.js.map": "/eventhub-react/static/js/runtime-main.106dbc50.js.map",
+    "static/js/2.667f91e8.chunk.js": "/eventhub-react/static/js/2.667f91e8.chunk.js",
+    "static/js/2.667f91e8.chunk.js.map": "/eventhub-react/static/js/2.667f91e8.chunk.js.map",
+    "index.html": "/eventhub-react/index.html",
+    "precache-manifest.8ee61366ff3f5ce9223e727e0169b22a.js": "/eventhub-react/precache-manifest.8ee61366ff3f5ce9223e727e0169b22a.js",
+    "service-worker.js": "/eventhub-react/service-worker.js",
+    "static/css/main.8a272cf2.chunk.css.map": "/eventhub-react/static/css/main.8a272cf2.chunk.css.map",
+    "static/js/2.667f91e8.chunk.js.LICENSE.txt": "/eventhub-react/static/js/2.667f91e8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.106dbc50.js",
+    "static/js/2.667f91e8.chunk.js",
+    "static/css/main.8a272cf2.chunk.css",
+    "static/js/main.2e6cfbfa.chunk.js"
+  ]
+}
